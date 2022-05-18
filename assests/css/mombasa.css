@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+/*start of header styling*/
+#sectHeader{
+    background-image: url(../images/mombasa/msa.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+
+}
+#sectHeader > .header{
+    text-align: center;
+    color: black;
+}
+#sectHeader > .header > h3{
+    font-size: 100px;
+}
+#sectHeader > .header > p{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 20px;
+}
+/*
+#top_deals{
+    border: 1px solid grey;
+    background-color: whitesmoke;
+}*/
+/*top deals styling*/
+#top_deals h2{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+#top_deals .deals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#top_deals .deals div{
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#top_deals .deals img{
+    border-radius: 10px;
+}
+#top_deals .deals h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#top_deals .deals .rate{
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#top_deals span{
+    font-weight: bolder;
+}
+
+/*transport means styling*/
+#transport h2{
+    margin-left: 110px;
+}
+#transport .locomotives{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#transport .locomotives div{
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#transport .locomotives img{
+    border-radius: 10px;
+}
