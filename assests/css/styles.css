@@ -211,3 +211,14 @@ a {
 	margin:0 10px 10px 0;
 	color: whitesmoke;
 }
+/*responsive*/
+@media(max-width: 480px){
+  .footer-col{
+    width: 50%;
+}
+}
+@media(max-width: 480px){
+  .footer-col{
+    width: 100%;
+}
+}
