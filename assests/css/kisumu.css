@@ -1,6 +1,7 @@
 body {
-    
+ padding: 0;
+ margin: 0;   
 }
 .kisumupic {
-    background-image: url(/assets/images/kisumucity.jpg);
+    background-image: url(/assests/images/kisumu/kisumucity.jpg);
 }
