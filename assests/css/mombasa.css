@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: whitesmoke;
@@ -9,6 +11,7 @@ body{
 a{
     text-decoration: none;
     font-size: 15px;
+    color: #000;
 }
 nav{
     display: flex;
@@ -211,6 +214,10 @@ nav > .navLinks > ul > li a:hover{
 #top_deals span{
     font-weight: bolder;
 }
+#top_deals .deals a{
+    color: #000;
+    margin-bottom: 5px;
+}
 #top_deals .deals a:hover{
     color: #00ff00;
 }
@@ -241,6 +248,10 @@ nav > .navLinks > ul > li a:hover{
 }
 #transport .locomotives img{
     border-radius: 10px;
+}
+#transport .locomotives p{
+    margin-top: 10px;
+    font-size: 12px;
 }
 /*footer styling*/
 
