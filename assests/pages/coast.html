@@ -8,6 +8,56 @@
     <title>Safari Tour Guide</title>
 </head>
 <body>
+    <!-- Navigation Bar-->
+    <nav>
+        <div class="logo">
+            <img src="../images/logosafaris.png" alt="logo">
+        </div>
+        <div class="navLinks">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a class="dropbtn">Dropdown</a>
+                        <div class="dropdown-content">
+                            <a href="#">Mombasa</a>
+                            <a href="#">Nairobi</a>
+                            <a href="#">Nakuru</a>
+                            <a href="#">Eldoret</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">Blog</a></li>
+                <li><a onclick="document.getElementById('sign').style.display='block'" style="width:auto;">Sign Up</a>
+                    <div id="sign" class="form">
+                        <form class="form-content" action="#">
+                            <div class="container">
+                                <h1>Sign In</h1>
+                                <p>Join Us and subcribe to our deals with offers.</p>
+                                <hr>
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                <label for="psw-repeat"><b>Repeat Password</b></label>
+                                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                                    Remember me
+                                </label>
+                                <p>By creating an account you agree to our <a href="#" style="color:black">Terms &
+                                        Privacy</a>.</p>
+                                <div class="clearfix">
+                                    <button type="button" onclick="document.getElementById('sign').style.display='none'"
+                                        class="cancelbtn">Cancel</button>
+                                    <button type="submit" class="signupbtn">Sign Up</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+        </div>
+    </nav>
     <!--header section-->
     <section id="sectHeader">
         <div class="header">
