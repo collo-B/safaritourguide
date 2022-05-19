@@ -6,120 +6,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kisumu Landing Page</title>
     <link rel="stylesheet" type="text/css" href="/assests/css/kisumu.css" />
+    <script type="text/javascript" src="/assests/js/kisumu.js"></script>
+    <script src="https://kit.fontawesome.com/edfee8f41c.js"></script>
   </head>
   <body>
     <section>
       <header>
-        <div class="logo">
-          <img
-            class="logoimg"
-            src="/assests/images/logosafaris.png"
-            alt="logo"
-          />
-          <p>Safari Tours</p>
-          <p></p>
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href=""><button>Home</button></a>
-            </li>
-            <li>
-              <a href=""><button>Blog</button></a>
-            </li>
-            <li>
-              <a href=""><button>Destinations</button></a>
-            </li>
-            <li>
-              <a href=""><button>Sign In</button></a>
-            </li>
-          </ul>
-        </nav>
+<!-- Navigation Bar-->
+<nav>
+  <div class="logo">
+      <img src="/assests/images/logosafaris.png" alt="logo">
+  </div>
+  <div class="navLinks">
+      <ul>
+          <li><a id="llp" href="">Home</a></li>
+          <li>
+              <div class="dropdown">
+                  <a class="dropbtn">Dropdown</a>
+                  <div class="dropdown-content">
+                      <a href="#">Mombasa</a>
+                      <a href="#">Nairobi</a>
+                      <a href="#">Nakuru</a>
+                      <a href="#">Kisumu</a>
+                  </div>
+              </div>
+          </li>
+          <li><a id="llp" href="">Blog</a></li>
+          <li><a id="llp" onclick="document.getElementById('sign').style.display='block'" style="width:auto;">Sign Up</a>
+              <div id="sign" class="modal">
+                  <span onclick="document.getElementById('sign').style.display='none'" class="close"
+                      title="Close Modal">&times;</span>
+                  <form class="modal-content" action="#">
+                      <div class="container">
+                          <h1>Sign In</h1>
+                          <p>Join Us and subcribe to our deals with offers.</p>
+                          <hr>
+                          <label for="email"><b>Email</b></label>
+                          <input type="text" placeholder="Enter Email" name="email" required>
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                          <label for="psw-repeat"><b>Repeat Password</b></label>
+                          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                          <label>
+                              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                              Remember me
+                          </label>
+                          <p>By creating an account you agree to our <a href="#" style="color:black">Terms &
+                                  Privacy</a>.</p>
+                          <div class="clearfix">
+                              <button type="button" onclick="document.getElementById('sign').style.display='none'"
+                                  class="cancelbtn">Cancel</button>
+                              <button type="submit" class="signupbtn">Sign Up</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </li>
+  </div>
+  </ul>
+  </div>
+</nav>
       </header>
     </section>
     <section>
-      <div class="kisumupic">description</div>
+      <div class="kisumupic"><h1>KISUMU CITY</h1>
+        <h2>City in Kenya</h2>
+      <p>
+        Kisumu (/kiːˈsuːmuː/ kee-SOO-moo)[4] is the third-largest city in Kenya after the capital, Nairobi, and the coastal city of Mombasa. It is the third-largest city (after Kampala, Uganda and Mwanza, Tanzania) in the Lake Victoria Basin.<br><br>
+        It’s known for lakeside viewpoints at Dunga Hill Camp and Hippo Point. The Kisumu Impala Sanctuary shelters herds of impalas and zebras. Its animal orphanage is home to wildlife like cheetahs and baboons. The city’s Kisumu Museum displays artifacts related to the people of the Nyanza Province. Southwest, Ruma National Park has tall cliffs, roan antelope and birdlife.</p></div>
     </section>
     <section>
       <h1>TOP DEALS</h1>
       <div class="topdeals3pis">
         <div class="pic1">
           <img src="/assests/images/kisumu/impalasanctuary.JPG" class="" />
-          <h2>destination1</h2>
-          <p>accomodation1</p>
-          <p>accomodation2</p>
-          <p>accomodation3</p>
-          <p>accomodation4</p>
-          <a href="">see more</a>
+          <h2>Impala Sanctuary</h2>
+          <p>Set on the shore of Lake Victoria, the<br> largest freshwater <br>lake in Africa, the Kisumu Impala <br>Sanctuary is a peaceful, relaxing <br>place to enjoy the natural beauty that <br>abounds here. <br>The sanctuary hosts impalas, the rare <br>Sitatunga antelope as well <br>as big cats, buffalos, giraffes, cheetahs<br> and several primate species.</p>
+          <h3>accomodation</h3>
+          <p>Impala Lake Victoria Eco Lodge<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <a class="linkinn" href="">book</a>
         </div>
         <div class="pic2">
           <img src="/assests/images/kisumu/kit-mikayi.jpg" class="" />
-          <h2>destination1</h2>
-          <p>accomodation1</p>
-          <p>accomodation2</p>
-          <p>accomodation3</p>
-          <p>accomodation4</p>
-          <a href="">see more</a>
+          <h2>Kit Mikayi</h2>
+          <p>Kit-Mikayi — also known as "the <br>rock of the first woman" or "the<br> cryingstone"— is a rock formation,<br> a tor, around 120 m high situated about <br>29 km west of the town of Kisumu in<br> western Kenya. It is about 1 km from<br> the Kisumu-Bondo road.</p>
+          <br><br>
+          <h3>accomodation</h3>
+          <p>Ciala Resort Hotels<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br>
+            <a href="" class="linkin">see more</a></p>
+          <a class="linkinn" href="">book</a>
         </div>
         <div class="pic3">
           <img src="/assests/images/kisumu/dunga-bay.jpg" class="" />
-          <h2>destination1</h2>
-          <p>accomodation1</p>
-          <p>accomodation2</p>
-          <p>accomodation3</p>
-          <p>accomodation4</p>
-          <a href="">see more</a>
+          <h2>Dunga Bay</h2>
+          <p>description</p>
+          <p>Vittoria Suites<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <p>Acacia Premier Hotel<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <p>Roam Apartment<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <a class="linkinn" href="">book</a>
         </div>
       </div>
       <div class="topdealsother3pics">
         <div class="pic4">
           <img src="/assests/images/kisumu/ksmmuseum.jpg" class="" />
-          <h2>destination1</h2>
-          <p>accomodation1</p>
-          <p>accomodation2</p>
-          <p>accomodation3</p>
-          <p>accomodation4</p>
-          <a href="">see more</a>
+          <h2>Kisumu Museum</h2>
+          <p>Kisumu Museum is located in Kisumu town<br> along the Kisumu – Kericho highway.<br> It was opened to the public in 1980.<br> The museum stores and disseminates<br> information on cultural and<br> scientific issues with emphasis on Western<br> Kenya. Exhibits include cultural history.</p>
+          <h3>accomodation</h3>
+          <p>Jumuia Hotel Kisumu<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <a class="linkinn" href="">book</a>
         </div>
         <div class="pic5">
           <img src="/assests/images/kisumu/equator-sign.jpg" class="" />
-          <h2>destination1</h2>
-          <p>accomodation1</p>
-          <p>accomodation2</p>
-          <p>accomodation3</p>
-          <p>accomodation4</p>
-          <a href="">see more</a>
+          <h2>Equator</h2>
+          <p>
+            Located 6.5 kms from Kisumu town.The sign to mark the equator at the side of the road in Maseno Kenya East Africa This sign in the form of a globe was donated by Lions Club of Kisumu A minibus or matatu labelled Wailers is passing the sign</p>
+          <p>Grey Heritage Hotel<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <p>Quarantine Lounge<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <p>Maseno Equator Hotel<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <a class="linkinn" href="">book</a>
         </div>
         <div class="pic6">
           <img
             src="/assests/images/kisumu/ndere-island-national.jpg"
             class=""
           />
-          <h2>destination1</h2>
-          <p>accomodation1</p>
-          <p>accomodation2</p>
-          <p>accomodation3</p>
-          <p>accomodation4</p>
-          <a href="">see more</a>
+          <h2>Ndere Island National Park</h2>
+          <p>description</p>
+          <p>Beach View Hotel<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <p>Milimani Beach Resort<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <p>Acacia Premier Hotel<br><em class="pp">Standard Double or Twin Room</em><br><em class="pq">Beds:</em> 1 double or 2 singles<br><em class="pr">Starting from : Ksh 7500 per night</em><br><a href="" class="linkin">see more</a></p>
+          <a class="linkinn" href="">book</a>
         </div>
       </div>
     </section>
     <section>
       <h1>OUR TRANSPORTS</h1>
       <div class="ourtransportpics">
-        <div>
+        <div class="car1">
           <img src="/assests/images/kisumu/dinga1.jpg" class="" />
           <p>car type and description</p>
           <p>prices</p>
           <a href="">book now</a>
         </div>
-        <div>
+        <div class="car2">
           <img src="/assests/images/kisumu/Safari-Minivan.jpg" class="" />
           <p>car type and description</p>
           <p>prices</p>
           <a href="">book now</a>
         </div>
-        <div>
+        <div class="car3">
           <img src="/assests/images/kisumu/bus1.jpg" class="" />
           <p>car type and description</p>
           <p>prices</p>
@@ -128,11 +163,39 @@
       </div>
     </section>
     <section>
-      <div class="footer">
-        <div>logo and brief desciption</div>
-        <div>contact us</div>
-        <div>follow us</div>
-      </div>
+      <footer class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <img src="../images/logosafaris.png" alt="logo">
+                </div>
+                <div class="footer-col">
+                    <p class="list-header">Company</p>
+                    <p><a href="#">About us</a></p>
+                    <p><a href="#">Our Services</a></p>
+                    <p><a href="#"> Our Policy</a></p>
+                    <p><a href="#">Affiliate Program</a></p>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="list-header">Services</p>
+                    <p><a href="#">FAQ</a></li>
+                    <p><a href="#">Careers</a></p>
+                    <p><a href="#">Vouchers</a></p>
+                    <p><a href="#">Booking status</a></p>
+                    <p><a href="#">Payment options</a></p>
+                </div>
+                <div class="footer-col">
+                    <p class="list-header">Follow Us</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     </section>
   </body>
 </html>
