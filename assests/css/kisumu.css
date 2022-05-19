@@ -155,7 +155,7 @@ hr {
   display: table;
 }
 .kisumupic {
-    background-image: url("/assests/images/kisumu/Kisumu-City.webp");
+    background-image: url("../images/kisumu/Kisumu-City.webp");
     height: 120vh;
     background-size: cover;
     border-radius: 40px;
