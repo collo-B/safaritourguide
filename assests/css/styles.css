@@ -193,6 +193,13 @@ section{
 .aboutus{
   display: flex;
   padding: 20px;
+  border-style: groove;
+  border-radius: 13px;
+  border-width: 1px;
+
+}
+/*body{
+  background-color: palegoldenrod;*/
 }
 .word{
   padding-left: 30px;
@@ -211,8 +218,15 @@ section{
   padding-left: 20px;
   padding-right: 40px;
 }
+.hotelreservation{
+ /* border: #058d0a;
+  border-style: groove;*/
+  border-width: 1px;
+  border-radius: 13px;
+}
 .hotelreservation>h6{
   font-size: large;
+  
 }
 .hotelreservation>p{
   font-size: large;
@@ -220,7 +234,7 @@ section{
   line-height: 1.4;
   padding-right: 40px;
 }
-.hotelreservation>a>b{
+.but{
   padding: 5px;
   border-radius: 8px;
 }
@@ -234,6 +248,13 @@ section{
 .testimonies>div{
   padding-left: 20px;
   padding-right: 40px;
+  /*border-style: groove;*/
+  box-shadow: 2px 2px 5px grey;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+.testimonies>div>p>img{
+  border-radius: 50%;
 }
 .testimonies>div>p{
   font-size: large;
