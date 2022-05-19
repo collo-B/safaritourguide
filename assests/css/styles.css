@@ -104,12 +104,12 @@ input[type="password"]:focus {
 button {
   background-color: #058d0a;
   color: white;
-  padding: 14px 20px;
+  padding: 15px 32px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
   border-radius: 10px;
+  margin-left: 20px;
 
 }
 
@@ -284,61 +284,23 @@ a {
 
 
 /* styling the gallery*/
-
-
-
-
-.slider {
-  width: 100%;
-  max-width: 800px;
-  height: 350px;
-  position: relative;
-  overflow: hidden;
-  /* <===  */
-  border-radius: 15px;
+.gallery , .gallery-2{
+  display: flex;
 }
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.slide {
-  width: 100%;
-  max-width: 800px;
-  height: 350px;
-  position: absolute;
-  transition: all 0.5s;
-}
-
-.btn {
-  position: absolute;
-  width: 40px;
-  height: 40px;
+.gallery-pic{
   padding: 10px;
-  border: none;
-  border-radius: 50%;
-  z-index: 10px;
-  cursor: pointer;
-  background-color: #fff;
-  font-size: 18px;
-}
+  width: 33.3%;
+  border: 1px solid #058d0a;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #058d0a;
 
-.btn:active {
-  transform: scale(1.1);
-}
 
-.btn-prev {
-  top: 45%;
-  left: 2%;
 }
+.gallery-pic > img{
+  border-radius: 10px;
 
-.btn-next {
-  top: 45%;
-  right: 2%;
 }
-
 /* footer */
 .container {
   max-width: 1170px;

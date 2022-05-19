@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="./assests/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/edfee8f41c.js"></script>
-
-    <script src="./safari.js"></script>
+    <script src="./assests/js/index.js"></script>
 </head>
 
 <body>
@@ -26,15 +25,17 @@
                     <div class="dropdown">
                         <a class="dropbtn">Destinations</a>
                         <div class="dropdown-content">
-                            <a href="#">Mombasa</a>
-                            <a href="#">Nairobi</a>
+                            <a href="./assests/pages/coast.html">Mombasa</a>
+                            <a href="">Nairobi</a>
                             <a href="./assests/pages/nakuru.html">Nakuru</a>
                             <a href="">Kisumu</a>
 
                         </div>
                     </div>
                 </li>
-                <li><a href="https://www.radventuresoncehad.com/?gclid=Cj0KCQjw1ZeUBhDyARIsAOzAqQLnd97E94xM9TXnmt3_DhoLY4k_sErQ5oo2V8M_1Y5bcjjKQI2DnJkaApBBEALw_wcB">Blog</a></li>
+                <li><a
+                        href="https://www.radventuresoncehad.com/?gclid=Cj0KCQjw1ZeUBhDyARIsAOzAqQLnd97E94xM9TXnmt3_DhoLY4k_sErQ5oo2V8M_1Y5bcjjKQI2DnJkaApBBEALw_wcB">Blog</a>
+                </li>
                 <li><a onclick="document.getElementById('sign').style.display='block'" style="width:auto;">Sign In</a>
 
                     <div id="sign" class="form">
@@ -202,105 +203,83 @@
             </div>
         </div>
     </section>
-    <section id="sec">
-        <h2>Gallery</h2>
-        <div class="slider">
+    <h2>Gallery</h2>
+    <!-- creating slides -->
+    <div class="gallery">
 
-            <!-- slide 1 -->
-            <div class="slide">
-                <div class="numbertext"> 1/6</div>
-                <img src="assests/images/istockphoto-1158597999-1024x1024.jpg" alt="" />
-                <div class="text">Caption Text</div>
+        <div class="gallery-pic">
 
-            </div>
-
-            <!-- slide 2 -->
-            <div class="slide">
-                <div class="numbertext"> 2/6</div>
-
-                <img src="assests/images/nakuru.jpg" alt="" />
-                <div class="text">Caption Text</div>
-
-            </div>
-
-            <!-- slide 3 -->
-            <div class="slide">
-                <div class="numbertext"> 3/6</div>
-
-                <img src="assests/images/lake nakuru.jpg" alt="" />
-                <div class="text">Caption Text</div>
-
-            </div>
-
-            <!-- slide 4 -->
-            <div class="slide">
-                <div class="numbertext"> 4/6</div>
-
-                <img src="assests/images/kit mikayi_files/2021-06-12.jpg" alt="" />
-                <div class="text">Caption Text</div>
-
-            </div>
-
-            <!--slide 5 -->
-            <div class="slide">
-                <div class="numbertext"> 5/6</div>
-                <img src="assests/images/impala park_files/Kisumu (11).jpg" alt="" />
-                <div class="text">Caption Text</div>
-
-            </div>
-            <!--slide 6 -->
-            <div class="slide">
-                <div class="numbertext"> 6/6</div>
-                <img src="assests/images/istockphoto-607736600-1024x1024.jpg" alt="" />
-                <div class="text">Caption Text</div>
-
-            </div>
-
-            <!-- Control buttons -->
-            <button class="btn btn-next">></button>
-            <button class="btn btn-prev"></button>
+            <img src="./assests/images/istockphoto-949995624-1024x1024.jpg" style="width:100%">
         </div>
-        <!-- Footer -->
-        <footer class="bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <img src="./assests/images/logosafaris.png" alt="logo">
-                    </div>
-                    <div class="footer-col">
-                        <p class="list-header">Company</p>
-                        <p><a href="#">About us</a></p>
-                        <p><a href="#">Our Services</a></p>
-                        <p><a href="#"> Our Policy</a></p>
-                        <p><a href="#">Affiliate Program</a></p>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <p class="list-header">Services</p>
-                        <p><a href="#">FAQ</a></li>
-                        <p><a href="#">Careers</a></p>
-                        <p><a href="#">Vouchers</a></p>
-                        <p><a href="#">Booking status</a></p>
-                        <p><a href="#">Payment options</a></p>
-                    </div>
-                    <div class="footer-col">
-                        <p class="list-header">Follow Us</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div clas="contact" style="color: white;">
-                            <p><i class="fas fa-phone"></i>Reach Us: 07123654789</p>
-                            <p><i class="fa-solid fa-envelope-circle-check"></i>Email On: safaritours@gmail.com</p>
 
-                        </div>
+        <div class="gallery-pic">
+            <img src="./assests/images/istockphoto-1158597999-1024x1024 (1).jpg" style="width:100%">
+        </div>
+
+        <div class="gallery-pic">
+            <img src="./assests/images/istockphoto-1367386419-1024x1024.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="gallery-2" >
+        <div class="gallery-pic">
+            <img src="./assests/images/istockphoto-1311343567-1024x1024.jpg" style="width:100%">
+        </div>
+
+        <div class="gallery-pic">
+            <img src="./assests/images/istockphoto-172437851-1024x1024.jpg" style="width:100%">
+        </div>
+
+        <div class="gallery-pic">
+            <img src="./assests/images/istockphoto-607736600-1024x1024.jpg" style="width:100%">
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <img src="./assests/images/logosafaris.png" alt="logo">
+                </div>
+                <div class="footer-col">
+                    <p class="list-header">Company</p>
+                    <p><a href="#">About us</a></p>
+                    <p><a href="#">Our Services</a></p>
+                    <p><a href="#"> Our Policy</a></p>
+                    <p><a href="#">Affiliate Program</a></p>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="list-header">Services</p>
+                    <p><a href="#">FAQ</a></li>
+                    <p><a href="#">Careers</a></p>
+                    <p><a href="#">Vouchers</a></p>
+                    <p><a href="#">Booking status</a></p>
+                    <p><a href="#">Payment options</a></p>
+                </div>
+                <div class="footer-col">
+                    <p class="list-header">Follow Us</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div clas="contact" style="color: white;">
+                        <p><i class="fas fa-phone"></i>Reach Us: 07123654789</p>
+                        <p><i class="fa-solid fa-envelope-circle-check"></i>Email On: safaritours@gmail.com</p>
+
                     </div>
                 </div>
-        </footer>
-        <script>
+            </div>
+    </footer>
+    <script>
 
-        </script>
+    </script>
 </body>
 
 </html>
