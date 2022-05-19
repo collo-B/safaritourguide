@@ -183,31 +183,22 @@ nav > .navLinks > ul > li a:hover{
     font-size: 18px;
     padding-top: 20px;
 }
-#top_deals{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 /*top deals styling*/
 #top_deals h2{
-    margin-left: 110px;
+    margin-left: 20px;
     margin-top: 50px;
 }
 #top_deals .deals{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 18px;
 }
 #top_deals .deals div{
     padding: 20px;
-    /*margin: 15px;*/
-    /*border: 1px solid black;*/
     border-radius: 10px;
 }
 #top_deals .deals img{
-   /* border-radius: 10px;*/
-   width: 350px;
+   width: 380px;
 }
 #top_deals .deals h3{
     margin-top: 10px;
@@ -233,10 +224,10 @@ nav > .navLinks > ul > li a:hover{
     background-color: #058D0A;
     display: block;
     text-align: center;
-    margin:0;
-    border-radius: 3px;
+    margin:10px;
+    border-radius: 10px;
     height: 30px;
-    width: 70px;
+    width: 100px;
 }
 
 /*transport means styling*/
@@ -251,11 +242,8 @@ nav > .navLinks > ul > li a:hover{
 #transport .locomotives div{
     padding: 18px;
     margin: 15px 26px 15px 26px;
-    /*border: 1px solid black;*/
-    /*border-radius: 10px;*/
 }
 #transport .locomotives img{
-    /*border-radius: 10px;*/
     width: 350px;
 }
 #transport .locomotives p{
