@@ -218,7 +218,7 @@ nav > .navLinks > ul > li a:hover{
     background-color: #058D0A;
     display: block;
     text-align: center;
-    margin: 5px;
+    margin:0;
     border-radius: 3px;
     height: 30px;
     width: 70px;
@@ -242,3 +242,55 @@ nav > .navLinks > ul > li a:hover{
 #transport .locomotives img{
     border-radius: 10px;
 }
+/*footer styling*/
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+    font-size: 15px;
+    }
+    .row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .footer-col > img{
+      width: 120px;
+      padding-top: 40px;
+    }
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    .bottom{
+    background-color: black;
+      padding: 30px 0;
+    }
+    .footer-col{
+     width: 20%;
+     padding: 0 15px;
+    }
+    .footer-col > .list-header{
+    font-size: 18px;
+    color: whitesmoke;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    }
+    .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin:0 10px 10px 0;
+    color: whitesmoke;
+    }
+    /*responsive*/
+    @media(max-width: 480px){
+    .footer-col{
+      width: 50%;
+    }
+    }
+    @media(max-width: 480px){
+    .footer-col{
+      width: 100%;
+    }
+    }
