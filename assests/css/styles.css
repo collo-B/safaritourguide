@@ -361,3 +361,19 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .gallery ,.gallery-2{
+    flex-direction: column;
+  }
+  .gallery-pic{
+    width: 100%;
+    
+  }
+  .loc-pic > img{
+    width: 100%;
+  }
+  .toursites , .aboutus , .services , .testimonies{
+    flex-direction: column;
+  }
+
+}
