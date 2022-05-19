@@ -6,6 +6,10 @@
 body{
     background-color: whitesmoke;
 }
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
 /*start of header styling*/
 #sectHeader{
     background-image: url(../images/mombasa/msa.jpg);
@@ -70,6 +74,17 @@ body{
 }
 #top_deals span{
     font-weight: bolder;
+}
+#top_deals .deals a:hover{
+    color: #00ff00;
+}
+#top_deals .deals button{
+    background-color: #058D0A;
+    display: block;
+    margin-top: 5px;
+    border-radius: 3px;
+    height: 30px;
+    width: 70px;
 }
 
 /*transport means styling*/
