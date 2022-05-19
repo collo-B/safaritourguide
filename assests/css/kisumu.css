@@ -5,6 +5,10 @@ body {
  padding: 0;
  margin: 0;   
 }
+header {
+  background-image: url("/assests/images/kisumu/bgt.jpg");
+  border-radius: 15px;
+}
 
 nav{
   display: flex;
@@ -163,7 +167,8 @@ hr {
     margin-left: 80px;
     margin-right: 80px;
     border: 1px solid;
-    margin-top: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -230,7 +235,8 @@ border-radius: 20px;
     flex-direction: row;
     justify-content: space-around;
     margin-right: 20px;
-    margin-left: 20px;    
+    margin-left: 20px;
+    margin-bottom: 20px;    
 }
 .ourtransportpics > .car1 > img {
     height: 200px;
@@ -320,4 +326,9 @@ h2,p,a {
 }
 .linkinn {
   color: #058D0A
+}
+#toptop {
+ margin-left: 80px;
+ font-size: large;
+ color: #058D0A;
 }
