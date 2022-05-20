@@ -184,7 +184,14 @@ nav > .navLinks > ul > li a:hover{
     padding-top: 20px;
     margin: 0 10px 0 10px;
 }
+<<<<<<< HEAD
 
+=======
+#top_deals{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+>>>>>>> c9dd44741e1918aa6d1a73517f96a925a1531f63
 /*top deals styling*/
 #top_deals h2{
     margin-left: 20px;
@@ -193,6 +200,7 @@ nav > .navLinks > ul > li a:hover{
 #top_deals .deals{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
 }
 #top_deals .deals div{
     padding: 20px;
@@ -200,6 +208,21 @@ nav > .navLinks > ul > li a:hover{
 }
 #top_deals .deals img{
    width: 380px;
+=======
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+}
+#top_deals .deals div{
+    padding: 20px;
+    /*margin: 15px;*/
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+}
+#top_deals .deals img{
+   /* border-radius: 10px;*/
+   width: 350px;
+>>>>>>> c9dd44741e1918aa6d1a73517f96a925a1531f63
 }
 #top_deals .deals h3{
     margin-top: 10px;
@@ -243,8 +266,16 @@ nav > .navLinks > ul > li a:hover{
 #transport .locomotives div{
     padding: 18px;
     margin: 15px 26px 15px 26px;
+<<<<<<< HEAD
 }
 #transport .locomotives img{
+=======
+    /*border: 1px solid black;*/
+    /*border-radius: 10px;*/
+}
+#transport .locomotives img{
+    /*border-radius: 10px;*/
+>>>>>>> c9dd44741e1918aa6d1a73517f96a925a1531f63
     width: 350px;
 }
 #transport .locomotives p{
