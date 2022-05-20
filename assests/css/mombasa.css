@@ -182,6 +182,7 @@ nav > .navLinks > ul > li a:hover{
     font-weight: 900;
     font-size: 18px;
     padding-top: 20px;
+    margin: 0 10px 0 10px;
 }
 
 /*top deals styling*/
