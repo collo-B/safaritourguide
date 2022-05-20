@@ -379,6 +379,10 @@ a {
   .toursites , .aboutus , .services , .testimonies{
     flex-direction: column;
   }
+  nav>.navLinks>ul>li{
+    padding: 5px;
+    font-size: 10px;
+  }
   
 
 }
