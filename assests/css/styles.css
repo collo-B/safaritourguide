@@ -275,7 +275,7 @@ a {
   line-height: 1.4;
   padding-right: 40px;
 }
-<<<<<<< HEAD
+
 
 .checked {
   color: orange;
@@ -299,13 +299,10 @@ a {
 
 }
 .gallery-pic > img{
-  border-radius: 10px;
-
-=======
+  border-radius: 10px;}
 
 .checked {
   color: orange;
->>>>>>> 2166c39ffc20bc3beff806bac3ffae7e678f414e
 }
 /* footer */
 .container {
