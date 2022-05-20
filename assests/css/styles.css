@@ -262,6 +262,7 @@ a {
 /* styling for our Testimonials section*/
 .testimonies {
   display: flex;
+  width: 100%;
 }
 
 .testimonies>div {
@@ -277,16 +278,13 @@ a {
 }
 
 .checked {
-  color: orange;
-}
+  color: orange;}
 
 /* styling the gallery*/
-.gallery,
-.gallery-2 {
+.gallery , .gallery-2{
   display: flex;
 }
-
-.gallery-pic {
+.gallery-pic{
   padding: 10px;
   width: 33.3%;
   border: 1px solid #058d0a;
@@ -296,12 +294,10 @@ a {
 
 
 }
-
-.gallery-pic>img {
+.gallery-pic > img{
   border-radius: 10px;
 
 }
-
 /* footer */
 .container {
   max-width: 1170px;
@@ -362,39 +358,28 @@ a {
     width: 100%;
   }
 }
-
 @media (max-width: 768px) {
-
-  .gallery,
-  .gallery-2 {
+  .gallery ,.gallery-2{
     flex-direction: column;
   }
-
-  .gallery-pic {
+  .gallery-pic{
     width: 100%;
-
+    
   }
-
-  .loc-pic>img {
+  .loc-pic > img{
     width: 100%;
   }
-
-  .loc-pic {
+  .loc-pic{
     width: 100%;
     height: 100%;
   }
-
-  .toursites,
-  .aboutus,
-  .services,
-  .testimonies {
+  .toursites , .aboutus , .services , .testimonies{
     flex-direction: column;
   }
-
-  nav>.navLinks>ul>li {
+  nav>.navLinks>ul>li{
     padding: 5px;
     font-size: 10px;
   }
-
+  
 
 }
