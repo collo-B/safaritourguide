@@ -370,10 +370,15 @@ a {
   nav {
     flex-direction: column;
   }
+  
 }
 
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
+  }.heading > p ,b{
+    display: none;
+    width: 100%;
   }
 }
+

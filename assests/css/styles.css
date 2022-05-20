@@ -372,8 +372,13 @@ a {
   .loc-pic > img{
     width: 100%;
   }
+  .loc-pic{
+    width: 100%;
+    height: 100%;
+  }
   .toursites , .aboutus , .services , .testimonies{
     flex-direction: column;
   }
+  
 
 }
