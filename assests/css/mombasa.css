@@ -7,6 +7,7 @@
 }
 body{
     background-color: whitesmoke;
+    margin: 0 20px 0 20px;
 }
 a{
     text-decoration: none;
@@ -16,6 +17,13 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
+    background-image: url(../images/mombasa/bgt.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 20vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 .logo > img {
     max-width: 80px;
@@ -172,17 +180,13 @@ nav > .navLinks > ul > li a:hover{
 #sectHeader > .header > p{
     color: #fff;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 20px;
+    margin: 0 10px 0 10px;
 }
-/*
-#top_deals{
-    border: 1px solid grey;
-    background-color: whitesmoke;
-}*/
 /*top deals styling*/
 #top_deals h2{
-    margin-left: 110px;
+    margin-left: 20px;
     margin-top: 50px;
 }
 #top_deals .deals{
@@ -190,16 +194,13 @@ nav > .navLinks > ul > li a:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 #top_deals .deals div{
     padding: 20px;
-    margin: 15px;
-    border: 1px solid black;
     border-radius: 10px;
 }
 #top_deals .deals img{
-    border-radius: 10px;
+   width: 380px;
 }
 #top_deals .deals h3{
     margin-top: 10px;
@@ -225,15 +226,15 @@ nav > .navLinks > ul > li a:hover{
     background-color: #058D0A;
     display: block;
     text-align: center;
-    margin:0;
-    border-radius: 3px;
+    margin:10px;
+    border-radius: 10px;
     height: 30px;
-    width: 70px;
+    width: 100px;
 }
 
 /*transport means styling*/
 #transport h2{
-    margin-left: 110px;
+    margin-left: 20px;
 }
 #transport .locomotives{
     display: flex;
@@ -241,17 +242,15 @@ nav > .navLinks > ul > li a:hover{
     align-items: center;
 }
 #transport .locomotives div{
-    padding: 20px;
-    margin: 15px;
-    border: 1px solid black;
-    border-radius: 10px;
+    padding: 18px;
+    margin: 15px 26px 15px 26px;
 }
 #transport .locomotives img{
-    border-radius: 10px;
+    width: 350px;
 }
 #transport .locomotives p{
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 18px;
 }
 /*footer styling*/
 
