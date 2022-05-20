@@ -323,12 +323,24 @@ h2,p,a {
   }
 .linkin {
   color: #058D0A;
+  background-color: black;
+  border-radius: 5px;
+
 }
 .linkinn {
-  color: #058D0A
+  color: #058D0A;
+  background-color: black;
+  border-radius: 4px;
+  
 }
 #toptop {
  margin-left: 80px;
  font-size: large;
  color: #058D0A;
+}
+.bkk {
+  color: #058D0A;
+  display: block;
+  background-color: #ddd;
+  padding: 5px;
 }
