@@ -262,6 +262,7 @@ a {
 /* styling for our Testimonials section*/
 .testimonies {
   display: flex;
+  width: 100%;
 }
 
 .testimonies>div {
@@ -276,13 +277,8 @@ a {
   padding-right: 40px;
 }
 
-
 .checked {
-  color: orange;
-}
-
-
-
+  color: orange;}
 
 /* styling the gallery*/
 .gallery , .gallery-2{
@@ -299,10 +295,8 @@ a {
 
 }
 .gallery-pic > img{
-  border-radius: 10px;}
+  border-radius: 10px;
 
-.checked {
-  color: orange;
 }
 /* footer */
 .container {
