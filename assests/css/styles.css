@@ -38,6 +38,10 @@ nav>.navLinks>ul>li>a {
   text-decoration: none;
 }
 
+nav>.navLinks>ul>li:hover {
+  background-color: #21ec28;
+}
+
 nav>.navLinks>ul>li a:hover {
   color: black;
 }
@@ -191,7 +195,6 @@ section {
 .toursites {
   display: flex;
   justify-content: space-evenly;
-  background-color: whitesmoke;
   padding: 5PX;
 }
 
@@ -202,9 +205,12 @@ section {
 
 }
 
+.toursites>div>img {
+  border-radius: 10px;
+}
+
 .toursites>div {
   border-style: groove;
-  border-color: black;
   border-radius: 10px;
   border-width: 1px;
   padding-bottom: 10px;
@@ -245,11 +251,19 @@ a {
   font-size: large;
 }
 
+.hotelreservation>i {
+  display: flex;
+  justify-content: center;
+}
+
+.hotelreservation>h6 {
+  display: flex;
+  justify-content: center;
+}
+
 .hotelreservation>p {
   font-size: large;
-
   line-height: 1.4;
-  padding-right: 40px;
 }
 
 .hotelreservation>a>b {
@@ -257,18 +271,54 @@ a {
   border-radius: 8px;
 }
 
+/* big five */
+
+
+.big {
+  display: flex;
+  padding: 20px;
+}
+
+.five {
+  width: 20%;
+}
+
+.five>img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
+  transform-origin: center;
+  transform: perspective(800px) rotateY(25deg);
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.five:hover img {
+  opacity: 0.3;
+}
+
+.five img:hover {
+  transform: perspective(800px) rotateY(0deg);
+  opacity: 1;
+}
 
 
 /* styling for our Testimonials section*/
 .testimonies {
   display: flex;
   width: 100%;
+  padding-left: 20px;
 }
 
-.testimonies>div {
-  padding-left: 20px;
-  padding-right: 40px;
-}
 
 .testimonies>div>p {
   font-size: large;
@@ -278,26 +328,29 @@ a {
 }
 
 .checked {
-  color: orange;}
+  color: orange;
+}
 
 /* styling the gallery*/
-.gallery , .gallery-2{
+.gallery,
+.gallery-2 {
   display: flex;
 }
-.gallery-pic{
-  padding: 10px;
+
+.gallery-pic {
   width: 33.3%;
-  border: 1px solid #058d0a;
+  border: 1px solid cornsilk;
   margin: 5px;
   border-radius: 10px;
-  background-color: #058d0a;
 
 
 }
-.gallery-pic > img{
+
+.gallery-pic>img {
   border-radius: 10px;
 
 }
+
 /* footer */
 .container {
   max-width: 1170px;
@@ -358,28 +411,44 @@ a {
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
-  .gallery ,.gallery-2{
+
+  .gallery,
+  .gallery-2 {
     flex-direction: column;
   }
-  .gallery-pic{
+
+  .gallery-pic {
     width: 100%;
-    
+
   }
-  .loc-pic > img{
+
+  .big {
+    flex-direction: column;
+  }
+
+  .loc-pic>img {
     width: 100%;
   }
-  .loc-pic{
+
+  .loc-pic {
     width: 100%;
     height: 100%;
   }
-  .toursites , .aboutus , .services , .testimonies{
+
+  .toursites,
+  .aboutus,
+  .services,
+  .testimonies {
     flex-direction: column;
   }
-  nav>.navLinks>ul>li{
+
+  nav>.navLinks>ul>li {
     padding: 5px;
     font-size: 10px;
   }
-  
+
+
 
 }
