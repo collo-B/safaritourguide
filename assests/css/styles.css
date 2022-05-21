@@ -427,14 +427,22 @@ a {
   .big {
     flex-direction: column;
   }
+  .five{ width: 80%;}
 
-  .loc-pic>img {
+  .loc-pic {
     width: 100%;
+  }
+  .toursites > div > img{
+    width: 100%;
+    height: 50%;
   }
 
   .loc-pic {
     width: 100%;
     height: 100%;
+  }
+  .toursites > div{
+    justify-content: center;
   }
 
   .toursites,
@@ -444,9 +452,10 @@ a {
     flex-direction: column;
   }
 
-  nav>.navLinks>ul>li {
+  nav>.navLinks>ul>li ,.dropbtn {
     padding: 5px;
     font-size: 10px;
+    margin-bottom: 10px;
   }
 
 
