@@ -380,5 +380,15 @@ a {
     display: none;
     width: 100%;
   }
+  nav>.navLinks>ul>li,
+    .dropbtn , .dropdown-content{
+      padding: 5px;
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+  .vehicles > div > img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
