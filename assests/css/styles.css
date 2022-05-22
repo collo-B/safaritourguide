@@ -933,7 +933,9 @@ a {
       width: 100%;
       overflow: hidden;
     }
-
+    .sites > div > img{
+      height: 50%;
+    }
 
 
   }
